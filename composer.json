@@ -1,0 +1,34 @@
+{
+    "name": "Varopago/sdk",
+    "description": "This is a client implementing the payment services for Varopago at Varopago.mx",
+    "type": "library",
+    "version": "1.2.3",
+    "minimum-stability": "stable",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Varopago",
+            "homepage": "http://www.Varopago.mx/docs/libraries.html",
+            "email": "soporte@Varopago.mx"
+        },
+        {
+            "name": "",
+            "homepage": "",
+            "email": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.2.1",
+        "ext-curl": "*",
+        "ext-hash": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "support": {
+        "issues": "https://github.com/Varopago"
+    },
+    "autoload": {
+        "psr-0": { "Varopago": "" }
+    }
+}
